@@ -1,0 +1,14 @@
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\bin\Debug\net10.0\Navigate demo.exe
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\bin\Debug\net10.0\Navigate demo.deps.json
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\bin\Debug\net10.0\Navigate demo.runtimeconfig.json
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\bin\Debug\net10.0\Navigate demo.dll
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\bin\Debug\net10.0\Navigate demo.pdb
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\Navigate demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\Navigate demo.AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\Navigate demo.AssemblyInfo.cs
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\Navigate demo.csproj.CoreCompileInputs.cache
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\Navigate demo.dll
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\refint\Navigate demo.dll
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\Navigate demo.pdb
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\Navigate demo.genruntimeconfig.cache
+C:\Users\mohit\source\repos\Day28\Day32\Navigate demo\obj\Debug\net10.0\ref\Navigate demo.dll

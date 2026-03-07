@@ -1,0 +1,4 @@
+C:\Users\mohit\source\repos\Day28\Day32\IENUMBERABLE2\obj\Debug\net10.0\IENUMBERABLE2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Day28\Day32\IENUMBERABLE2\obj\Debug\net10.0\IENUMBERABLE2.AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Day28\Day32\IENUMBERABLE2\obj\Debug\net10.0\IENUMBERABLE2.AssemblyInfo.cs
+C:\Users\mohit\source\repos\Day28\Day32\IENUMBERABLE2\obj\Debug\net10.0\IENUMBERABLE2.csproj.CoreCompileInputs.cache

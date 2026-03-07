@@ -1,0 +1,14 @@
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\bin\Debug\net10.0\Ienumerable.exe
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\bin\Debug\net10.0\Ienumerable.deps.json
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\bin\Debug\net10.0\Ienumerable.runtimeconfig.json
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\bin\Debug\net10.0\Ienumerable.dll
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\bin\Debug\net10.0\Ienumerable.pdb
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\Ienumerable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\Ienumerable.AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\Ienumerable.AssemblyInfo.cs
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\Ienumerable.csproj.CoreCompileInputs.cache
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\Ienumerable.dll
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\refint\Ienumerable.dll
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\Ienumerable.pdb
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\Ienumerable.genruntimeconfig.cache
+C:\Users\mohit\source\repos\Day28\Day32\Ienumerable\obj\Debug\net10.0\ref\Ienumerable.dll
