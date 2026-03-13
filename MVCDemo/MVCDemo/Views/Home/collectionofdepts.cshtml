@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MVCDemo.Models.DepartMent>
+@{
+    ViewData["Title"] = "collectionofdepts";
+}
+
+<h1>collectionofdepts</h1>
+<table border="2" cellpadding="2" cellspacing="3">
+<tr>
+    <th>Department Id</th>
+    <th>Department n</th>
+    <th>Link</th>
+</tr>
+    @foreach(var dept in Model)
+    {
+    <tr>
+        <td>@dept.deptid</td>
+        <td>@dept.deptname</td>
+        <td><a asp-controller="Home" asp-action="EmpsInDept" asp-route-id="@dept.deptid">EmployeesInDept</a></td>
+    </tr>
+    }
+</table>

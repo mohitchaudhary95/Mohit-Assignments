@@ -1,0 +1,36 @@
+﻿@model IEnumerable<MVCDemo.Models.Employee>
+
+@{
+
+    ViewData["Title"] = "EmpsInDept";
+
+}
+ 
+ 
+<h2>Employees in Department</h2>
+ 
+<table border="2" cellpadding="3" cellspacing="3">
+    <tr>
+        <th>EmployeeId</th>
+        <th>EmployeeName</th>
+        <th>EmpSalary</th>
+        <th>Image</th>
+        <th>Details</th>
+    </tr>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.empid</td>
+            <td>@emp.empname</td>
+            <td>@emp.salary</td>
+            <td>
+                <img src="@emp.imageurl" width="100" height="100"/>
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@emp.empid">Details</a>
+            </td>
+        </tr>
+    }
+</table>
+
+ 

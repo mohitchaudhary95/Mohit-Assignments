@@ -1,0 +1,45 @@
+﻿@model MVCDemo.Models.EmployeeDeptViewModel;
+@{
+    ViewData["Title"] = "mixedobjectpassing";
+}
+
+<h1>mixedobjectpassing</h1>
+
+<h2>Date:@Model.date</h2>
+<h3>Dept details</h3>
+<table border="1" cellpadding="2" cellspacing="3">
+    <tr>
+        <th>DepartmentId</th>
+        <th>DepartmentName</th>
+    </tr>
+        @foreach(var dept in Model.deptlist)
+        {
+            <tr>
+            <td>@dept.deptid</td>
+            <td>@dept.deptname</td>
+            </tr>
+        }
+</table>
+
+<h3>searchemp</h3>
+<h1>@Model.emp</h1>
+
+<div>
+    <img src="@Model.emp.imageurl" alt="@Model>empname" width="300" height="300" />
+</div>
+
+<div>
+    <h2>Employee Details</h2>
+    <p>
+        Hello, my name is Mohit Chaudhary. I’m currently pursuing my Bachelor’s in Computer Science from Chandigarh University.
+
+        I have a strong interest in full-stack development and problem-solving. I’ve worked on a MERN stack expense tracker application where I implemented JWT-based authentication, protected routes, and filtering logic using MongoDB.
+
+        Along with development, I’ve also explored machine learning projects such as real-time face mask detection using CNN and a thyroid disease prediction model using SVM.
+
+        My core skills include React, JavaScript, C#, SQL, and Python. I’m eager to apply my knowledge in a real-world environment, learn from experienced developers, and contribute effectively as an intern.
+    </p>
+    <h2>@Model.emp.salary</h2>
+    <h2><a asp-action="collectionofobjectpassing">Previous</a></h2>
+</div>
+

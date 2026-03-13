@@ -1,0 +1,32 @@
+﻿<style>
+	table {
+		border-collapse: collapse;
+		width: 50%;
+	}
+
+	table, th, td {
+		border: 2px solid black;
+	}
+
+	th, td {
+		padding: 8px;
+		text-align: left;
+	}
+</style>
+
+<table>
+	<thead>
+		<tr>
+			<th>EmployeeID</th>
+			<th>EmpName</th>
+			<th>Salary</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>@Model.empid</td>
+			<td>@Model.empname</td>
+			<td>@Model.salary</td>
+		</tr>
+	</tbody>
+</table>
