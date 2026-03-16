@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|c:\\users\\mohit\\source\\repos\\mvcexample\\dogapp\\dogapp\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|solutionrelative:dogapp\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|c:\\users\\mohit\\source\\repos\\mvcexample\\dogapp\\dogapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|solutionrelative:dogapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|c:\\users\\mohit\\source\\repos\\mvcexample\\dogapp\\dogapp\\controllers\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|solutionrelative:dogapp\\controllers\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|c:\\users\\mohit\\source\\repos\\mvcexample\\dogapp\\dogapp\\views\\dog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|solutionrelative:dogapp\\views\\dog\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|c:\\users\\mohit\\source\\repos\\mvcexample\\dogapp\\dogapp\\views\\dog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|solutionrelative:dogapp\\views\\dog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|c:\\users\\mohit\\source\\repos\\mvcexample\\dogapp\\dogapp\\views\\dog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{134EDB01-37A9-3A99-49B8-CFACF72FFA79}|DogApp\\DogApp.csproj|solutionrelative:dogapp\\views\\dog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Dog\\Details.cshtml",
+              "RelativeDocumentMoniker": "DogApp\\Views\\Dog\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Dog\\Details.cshtml",
+              "RelativeToolTip": "DogApp\\Views\\Dog\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T09:10:31.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Dog\\Index.cshtml",
+              "RelativeDocumentMoniker": "DogApp\\Views\\Dog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Dog\\Index.cshtml",
+              "RelativeToolTip": "DogApp\\Views\\Dog\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T08:33:08.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Dog\\Create.cshtml",
+              "RelativeDocumentMoniker": "DogApp\\Views\\Dog\\Create.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Dog\\Create.cshtml",
+              "RelativeToolTip": "DogApp\\Views\\Dog\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwDUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T06:24:36.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DogController.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Controllers\\DogController.cs",
+              "RelativeDocumentMoniker": "DogApp\\Controllers\\DogController.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Controllers\\DogController.cs",
+              "RelativeToolTip": "DogApp\\Controllers\\DogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:13:32.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DogApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DogApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T06:03:00.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Models\\Dog.cs",
+              "RelativeDocumentMoniker": "DogApp\\Models\\Dog.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\MVCExample\\DogApp\\DogApp\\Models\\Dog.cs",
+              "RelativeToolTip": "DogApp\\Models\\Dog.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T06:00:58.63Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
