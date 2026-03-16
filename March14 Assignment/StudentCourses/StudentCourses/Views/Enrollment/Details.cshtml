@@ -1,0 +1,51 @@
+﻿@model StudentCourses.Models.StudentDetailVM
+@{
+    ViewData["Title"] = $"{Model.Name} – Course Details";
+}
+
+<div class="back-nav">
+    <a asp-action="Index" class="back-link">← Back to Dashboard</a>
+</div>
+
+<div class="student-header">
+    <div class="student-avatar-lg">@Model.Name[0]</div>
+    <div class="student-info">
+        <h1>@Model.Name</h1>
+        <div class="student-meta">
+            <span class="badge badge-branch">@Model.Branch</span>
+            <span class="badge badge-count">@Model.Courses.Count course(s)</span>
+        </div>
+    </div>
+</div>
+
+<div class="table-wrapper">
+    <h2 class="section-title">📚 Course Details</h2>
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Course Title</th>
+                <th>Credits</th>
+                <th>Department</th>
+                <th>Latest Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Courses.Count; i++)
+            {
+                var course = Model.Courses[i];
+                <tr>
+                    <td class="id-cell">@(i + 1)</td>
+                    <td class="name-cell"><strong>@course.Title</strong></td>
+                    <td class="count-cell">@course.Credits cr.</td>
+                    <td><span class="badge badge-branch">@course.Department</span></td>
+                    <td>
+                        <span class="grade-badge grade-@course.LatestGrade.Replace("+", "plus").Replace("-", "minus")">
+                            @course.LatestGrade
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

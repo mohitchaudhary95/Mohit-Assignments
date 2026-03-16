@@ -1,0 +1,60 @@
+﻿@model List<StudentCourses.Models.StudentCoursesVM>
+@{
+    ViewData["Title"] = "Student Course Dashboard";
+}
+
+<div class="page-header">
+    <div class="header-content">
+        <div class="header-icon">🎓</div>
+        <div>
+            <h1>Student Course Dashboard</h1>
+            <p class="subtitle">@Model.Count students enrolled across all branches</p>
+        </div>
+    </div>
+</div>
+
+<div class="table-wrapper">
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Student Name</th>
+                <th>Branch</th>
+                <th>Courses</th>
+                <th>Enrolled Courses</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td class="id-cell">@student.StudentId</td>
+                    <td class="name-cell">
+                        <div class="avatar">@student.Name[0]</div>
+                        <span>@student.Name</span>
+                    </td>
+                    <td><span class="badge badge-branch">@student.Branch</span></td>
+                    <td class="count-cell">
+                        <span class="course-count">@student.CourseCount</span>
+                    </td>
+                    <td class="courses-cell">
+                        @if (student.CourseTitles.Any())
+                        {
+                            <span class="course-list">@string.Join(", ", student.CourseTitles)</span>
+                        }
+                        else
+                        {
+                            <span class="no-courses">No courses enrolled</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-studentId="@student.StudentId" class="btn-details">
+                            View Details →
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
