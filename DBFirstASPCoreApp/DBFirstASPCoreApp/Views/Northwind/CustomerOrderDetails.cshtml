@@ -1,0 +1,37 @@
+﻿@model IEnumerable<DBFirstASPCoreApp.Models.Order>
+
+@{
+    ViewData["Title"] = "CustomerOrderDetails";
+}
+
+<h1>CustomerOrderDetails</h1>
+<h2>Orders for Customer: @ViewBag.CustomerId</h2>
+
+@if (!Model.Any())
+{
+    <h3>No Orders Found</h3>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Order Date</th>
+                <th>Required Date</th>
+                <th>Shipped Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.OrderDate</td>
+                    <td>@order.RequiredDate</td>
+                    <td>@order.ShippedDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

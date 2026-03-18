@@ -1,0 +1,55 @@
+﻿@model IEnumerable<DBFirstASPCoreApp.Models.ProdCat>
+
+@{
+    ViewData["Title"] = "ProductsinCategory";
+}
+
+<h1>ProductsinCategory</h1>
+
+<div class="Container">
+    <div class="row">
+        <div class="col-lg-9">
+            <h2>Products in Category</h2>
+        </div>
+        <form method="get" action="/Northwind/ProductsinCategory">
+            <div>
+                <input type="text" id="category" name="Categoryname" class="form-control"/>
+            </div>
+            <div>
+                <input type="submit" id="Searchproducts" class="btnn btn-primary value=search"/>
+            </div>
+        </form>
+    </div>
+</div>
+@if(Model.Count()==0){
+    <table class="">
+        <tr>
+            <td>No Products Found</td>
+        </tr>
+    </table>
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <table id="prodlist" width="80%" cellpadding="5" cellspacing="5"
+            class="table-striped table-hover">
+            <thead>
+                <th style="padding:15px">Prodname</th>
+                <th style="padding:15px">Categoryname</th>
+            </thead>
+                <tbody>
+                    @foreach (var prod in Model)
+                    {
+                        <tr>
+                            <td style="padding:15px">@prod.prodname</td>
+                            <td style="padding:15px">@prod.catname</td>
+                        </tr>
+                    }
+
+                </tbody>
+
+        </table>
+        </div>
+    </div>
+}

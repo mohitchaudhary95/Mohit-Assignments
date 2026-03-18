@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Views\\Northwind\\CustomerOrderDetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBFirstASPCoreApp\\Views\\Northwind\\CustomerOrderDetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|c:\\users\\mohit\\source\\repos\\dbfirstefaspcore\\dbfirstaspcoreapp\\dbfirstaspcoreapp\\views\\northwind\\orderrange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|solutionrelative:dbfirstaspcoreapp\\views\\northwind\\orderrange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|c:\\users\\mohit\\source\\repos\\dbfirstefaspcore\\dbfirstaspcoreapp\\dbfirstaspcoreapp\\controllers\\northwindcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|solutionrelative:dbfirstaspcoreapp\\controllers\\northwindcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|c:\\users\\mohit\\source\\repos\\dbfirstefaspcore\\dbfirstaspcoreapp\\dbfirstaspcoreapp\\views\\northwind\\productsincategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|solutionrelative:dbfirstaspcoreapp\\views\\northwind\\productsincategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|c:\\users\\mohit\\source\\repos\\dbfirstefaspcore\\dbfirstaspcoreapp\\dbfirstaspcoreapp\\models\\prodcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A303FBAF-5B9B-E9B0-63D3-375FD68146A4}|DBFirstASPCoreApp\\DBFirstASPCoreApp.csproj|solutionrelative:dbfirstaspcoreapp\\models\\prodcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerOrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Views\\Northwind\\CustomerOrderDetails.cshtml",
+              "RelativeDocumentMoniker": "DBFirstASPCoreApp\\Views\\Northwind\\CustomerOrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Views\\Northwind\\CustomerOrderDetails.cshtml",
+              "RelativeToolTip": "DBFirstASPCoreApp\\Views\\Northwind\\CustomerOrderDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T08:42:01.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderRange.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Views\\Northwind\\OrderRange.cshtml",
+              "RelativeDocumentMoniker": "DBFirstASPCoreApp\\Views\\Northwind\\OrderRange.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Views\\Northwind\\OrderRange.cshtml",
+              "RelativeToolTip": "DBFirstASPCoreApp\\Views\\Northwind\\OrderRange.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T05:19:15.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsinCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Views\\Northwind\\ProductsinCategory.cshtml",
+              "RelativeDocumentMoniker": "DBFirstASPCoreApp\\Views\\Northwind\\ProductsinCategory.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Views\\Northwind\\ProductsinCategory.cshtml",
+              "RelativeToolTip": "DBFirstASPCoreApp\\Views\\Northwind\\ProductsinCategory.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-18T04:26:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdCat.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Models\\ProdCat.cs",
+              "RelativeDocumentMoniker": "DBFirstASPCoreApp\\Models\\ProdCat.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Models\\ProdCat.cs",
+              "RelativeToolTip": "DBFirstASPCoreApp\\Models\\ProdCat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T04:12:10.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NorthwindController.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Controllers\\NorthwindController.cs",
+              "RelativeDocumentMoniker": "DBFirstASPCoreApp\\Controllers\\NorthwindController.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\DBFirstEFASPCore\\DBFirstASPCoreApp\\DBFirstASPCoreApp\\Controllers\\NorthwindController.cs",
+              "RelativeToolTip": "DBFirstASPCoreApp\\Controllers\\NorthwindController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwDUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:58:16.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

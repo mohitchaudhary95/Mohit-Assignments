@@ -1,0 +1,67 @@
+﻿@model IEnumerable<DBFirstASPCoreApp.Models.Customer>
+
+@{
+    ViewData["Title"] = "OrderRange";
+}
+
+<h1>OrderRange</h1>
+
+<div class="row">
+    <div class="col-lg-9">
+        <h3>Find Customers more than</h3>
+    </div>
+    <form method="get" action="/Northwind/OrderRange">
+    <div class="col-lg-2">
+        <select name="range" id="orderrange">
+            <option value="5">Five</option>
+            <option value="10">Ten</option>
+            <option value="15">Fifteen</option>
+        </select>
+    </div>
+    <div class="col-lg-1">
+        <br/>
+        <input type="submit" id="findcustomers" value="searchcustomers" class="btn btn-info"/>
+    </div>
+    </form>
+</div>
+@if(Model.Count()==0){
+    <table class="">
+        <tr>
+            <td>No Customers Found</td>
+        </tr>
+    </table>
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <table id="customerlist" width="80%" cellpadding="5" cellspacing="5"
+            class="table-striped table-hover">
+            <thead>
+                <th style="padding:15px">CustomerID</th>
+                <th style="padding:15px">CompanyName</th>
+                <th style="padding:15px">ContactName</th>
+            </thead>
+                <tbody>
+                    @foreach (var cust in Model)
+                    {
+                        <tr>
+                            <td style="padding:15px">@cust.CustomerId</td>
+                            <td style="padding:15px">@cust.CompanyName</td>
+                            <td style="padding:15px">@cust.ContactName</td>
+                            <td>
+                                <a asp-action="CustomerOrderDetails"
+                                       asp-controller="NorthWind"
+                                       asp-route-id="@cust.CustomerId"
+                                       class="btn btn-primary">
+                                    View Orders
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+          </table>
+     </div>
+     </div>
+     }
+
