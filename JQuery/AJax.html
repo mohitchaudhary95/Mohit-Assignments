@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Ajax Table Example</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js">
+
+    </script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(
+            function () {
+                $.ajax({
+                    url: "https://jsonplaceholder.typicode.com/users",
+                    method: "GET",
+                    success: function (data) {
+                        var tableBody = $("#userTable tbody");
+                        $.each(data, function (index, user) {
+                            var row = "<tr>" +
+                                "<td>" + user.id + "</td>" +
+                                "<td>" + user.name + "</td>" +
+                                "<td>" + user.email + "</td>" +
+                                "</tr>";
+                            tableBody.append(row);
+                        });
+                    },
+                    error: function (error) {
+                        console.log("Error fetching data: ", error);
+                    }
+                });
+            }
+        )
+        
+    </script>
+</head>
+
+<body>
+
+    <h2>User Data</h2>
+    <table border="1" id="userTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be loaded here -->
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>

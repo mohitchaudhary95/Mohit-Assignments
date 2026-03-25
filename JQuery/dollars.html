@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery DOM Manipulation</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h2 { color: #333; }
+        .section { margin-bottom: 30px; border: 1px solid #ccc; padding: 15px; border-radius: 8px; }
+        button { margin: 4px; padding: 8px 14px; cursor: pointer; border: none; border-radius: 5px; font-size: 14px; }
+        .btn-add    { background-color: #4CAF50; color: white; }
+        .btn-remove { background-color: #f44336; color: white; }
+        .btn-modify { background-color: #2196F3; color: white; }
+        input { padding: 7px; margin: 4px; border: 1px solid #aaa; border-radius: 5px; font-size: 14px; }
+        #divresult { background-color: yellow; padding: 10px; margin-top: 10px; min-height: 30px; border-radius: 5px; }
+        #friendList li, #objList li { margin: 5px 0; }
+        #friendList li span, #objList li span { margin-right: 10px; }
+        .remove-btn { background: #f44336; color: white; padding: 3px 8px; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; }
+        .modify-btn { background: #2196F3; color: white; padding: 3px 8px; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; }
+    </style>
+
+    <script type="text/javascript">
+        var friends = ["sunitha", "mahesh", "kiran", "sanmay"];
+        var objs = [
+            { "name": "sita",   "age": "23" },
+            { "name": "rajesh", "age": "55" },
+            { "name": "kiran",  "age": "22" },
+            { "name": "praveen","age": "27" }
+        ];
+
+        // ── Helpers ──────────────────────────────────────────────
+
+        // Render the friends array into #friendList
+        function renderFriends() {
+            $("#friendList").empty();
+            $.each(friends, function(index, friend) {
+                var li = $("<li>")
+                    .append($("<span>").text(index + ". " + friend))
+                    .append(
+                        $("<button>").addClass("modify-btn").text("Rename")
+                            .on("click", function() { modifyFriend(index); })
+                    )
+                    .append(
+                        $("<button>").addClass("remove-btn").text("Remove")
+                            .on("click", function() { removeFriend(index); })
+                    );
+                $("#friendList").append(li);
+            });
+        }
+
+        // Render the objs array into #objList
+        function renderObjs() {
+            $("#objList").empty();
+            $.each(objs, function(index, obj) {
+                var li = $("<li>")
+                    .append($("<span>").text(index + ". " + obj.name + " (age: " + obj.age + ")"))
+                    .append(
+                        $("<button>").addClass("modify-btn").text("Edit Age")
+                            .on("click", function() { modifyObjAge(index); })
+                    )
+                    .append(
+                        $("<button>").addClass("remove-btn").text("Remove")
+                            .on("click", function() { removeObj(index); })
+                    );
+                $("#objList").append(li);
+            });
+        }
+
+        // ── Friends: Add ─────────────────────────────────────────
+        function addFriend() {
+            var newFriend = $("#newFriendInput").val().trim();
+            if (newFriend === "") {
+                alert("Please enter a friend's name.");
+                return;
+            }
+            friends.push(newFriend);          // ADD to array
+            $("#newFriendInput").val("");
+            renderFriends();
+            showResult("✅ Added friend: " + newFriend);
+        }
+
+        // ── Friends: Remove ──────────────────────────────────────
+        function removeFriend(index) {
+            var removed = friends.splice(index, 1); // REMOVE from array
+            renderFriends();
+            showResult("🗑️ Removed friend: " + removed[0]);
+        }
+
+        // ── Friends: Modify ──────────────────────────────────────
+        function modifyFriend(index) {
+            var newName = prompt("Enter new name for \"" + friends[index] + "\":");
+            if (newName && newName.trim() !== "") {
+                var oldName = friends[index];
+                friends[index] = newName.trim();   // MODIFY in array
+                renderFriends();
+                showResult("✏️ Renamed \"" + oldName + "\" → \"" + friends[index] + "\"");
+            }
+        }
+
+        // ── Objs: Add ────────────────────────────────────────────
+        function addObj() {
+            var name = $("#newObjName").val().trim();
+            var age  = $("#newObjAge").val().trim();
+            if (name === "" || age === "") {
+                alert("Please enter both name and age.");
+                return;
+            }
+            objs.push({ "name": name, "age": age }); // ADD to array
+            $("#newObjName").val("");
+            $("#newObjAge").val("");
+            renderObjs();
+            showResult("✅ Added person: " + name + " (age: " + age + ")");
+        }
+
+        // ── Objs: Remove ─────────────────────────────────────────
+        function removeObj(index) {
+            var removed = objs.splice(index, 1);  // REMOVE from array
+            renderObjs();
+            showResult("🗑️ Removed person: " + removed[0].name);
+        }
+
+        // ── Objs: Modify Age ─────────────────────────────────────
+        function modifyObjAge(index) {
+            var newAge = prompt("Enter new age for \"" + objs[index].name + "\":");
+            if (newAge && newAge.trim() !== "") {
+                var oldAge = objs[index].age;
+                objs[index].age = newAge.trim();   // MODIFY in array
+                renderObjs();
+                showResult("✏️ Updated " + objs[index].name + "'s age: " + oldAge + " → " + newAge);
+            }
+        }
+
+        // ── Filter (original feature kept) ───────────────────────
+        function filterFriendsStartingWithS() {
+            var result = friends.filter(function(friend) {
+                return friend.toLowerCase().startsWith("s");
+            });
+            showResult("🔍 Friends starting with 'S': " + (result.length ? result.join(", ") : "None"));
+        }
+
+        // ── Utility ──────────────────────────────────────────────
+        function showResult(msg) {
+            $("#divresult").html(msg);
+        }
+
+        // ── Document Ready ───────────────────────────────────────
+        $(document).ready(function() {
+            renderFriends();
+            renderObjs();
+
+            // Button click bindings
+            $("#btnAddFriend").on("click", addFriend);
+            $("#btnAddObj").on("click", addObj);
+            $("#btnFilter").on("click", filterFriendsStartingWithS);
+        });
+    </script>
+</head>
+<body>
+
+    <h1>jQuery DOM Manipulation</h1>
+
+    <!-- ── FRIENDS SECTION ── -->
+    <div class="section">
+        <h2>Friends Array</h2>
+
+        <!-- Add -->
+        <input type="text" id="newFriendInput" placeholder="Enter friend's name" />
+        <button class="btn-add" id="btnAddFriend">➕ Add Friend</button>
+        <button class="btn-modify" id="btnFilter">🔍 Filter names starting with 'S'</button>
+
+        <!-- List -->
+        <ul id="friendList"></ul>
+    </div>
+
+    <!-- ── OBJECTS SECTION ── -->
+    <div class="section">
+        <h2>People (Objects) Array</h2>
+
+        <!-- Add -->
+        <input type="text" id="newObjName" placeholder="Name" />
+        <input type="text" id="newObjAge"  placeholder="Age"  style="width:60px"/>
+        <button class="btn-add" id="btnAddObj">➕ Add Person</button>
+
+        <!-- List -->
+        <ul id="objList"></ul>
+    </div>
+
+    <!-- ── RESULT BOX ── -->
+    <div id="divresult">Actions will appear here...</div>
+
+</body>
+</html>
