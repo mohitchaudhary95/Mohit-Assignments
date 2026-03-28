@@ -1,0 +1,14 @@
+wwwroot\css\style.css
+wwwroot\delete.html
+wwwroot\details.html
+wwwroot\index.html
+wwwroot\js\app.js
+wwwroot\create.html
+wwwroot\edit.html
+C:\Users\mohit\source\repos\28March\ProductWebAPI\ProductWebAPI\wwwroot\css\style.css
+C:\Users\mohit\source\repos\28March\ProductWebAPI\ProductWebAPI\wwwroot\delete.html
+C:\Users\mohit\source\repos\28March\ProductWebAPI\ProductWebAPI\wwwroot\details.html
+C:\Users\mohit\source\repos\28March\ProductWebAPI\ProductWebAPI\wwwroot\index.html
+C:\Users\mohit\source\repos\28March\ProductWebAPI\ProductWebAPI\wwwroot\js\app.js
+C:\Users\mohit\source\repos\28March\ProductWebAPI\ProductWebAPI\wwwroot\create.html
+C:\Users\mohit\source\repos\28March\ProductWebAPI\ProductWebAPI\wwwroot\edit.html

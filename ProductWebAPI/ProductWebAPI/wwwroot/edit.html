@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Edit Product</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div class="navbar">🛒 Product Manager</div>
+    <div class="container">
+        <h2>Edit Product</h2>
+        <div id="alert"></div>
+        <form id="editForm">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="name" />
+                <div class="error" id="nameErr"></div>
+            </div>
+            <div class="form-group">
+                <label>Price (₹)</label>
+                <input type="number" id="price" step="0.01" min="0.01" max="10000" />
+                <div class="error" id="priceErr"></div>
+            </div>
+            <div class="form-group">
+                <label>Category</label>
+                <input type="text" id="category" />
+                <div class="error" id="categoryErr"></div>
+            </div>
+            <button type="submit" class="btn btn-warning">Save Changes</button>
+            <a href="/index.html" class="btn btn-secondary" style="margin-left:8px;">Back</a>
+        </form>
+    </div>
+
+    <script>
+    const id = new URLSearchParams(window.location.search).get('id');
+
+    async function loadProduct() {
+        const res = await fetch(`/api/products/${id}`);
+        if (!res.ok) { window.location.href = '/index.html'; return; }
+        const p = await res.json();
+        document.getElementById('name').value     = p.name;
+        document.getElementById('price').value    = p.price;
+        document.getElementById('category').value = p.category;
+    }
+
+    function validate(name, price, category) {
+        let valid = true;
+        document.getElementById('nameErr').textContent     = '';
+        document.getElementById('priceErr').textContent    = '';
+        document.getElementById('categoryErr').textContent = '';
+
+        if (!name.trim()) {
+            document.getElementById('nameErr').textContent = 'Please enter product name';
+            valid = false;
+        }
+        if (!price || price < 0.01 || price > 10000) {
+            document.getElementById('priceErr').textContent = 'Price must be between 0.01 and 10000';
+            valid = false;
+        }
+        if (!category.trim()) {
+            document.getElementById('categoryErr').textContent = 'Please enter product category';
+            valid = false;
+        }
+        return valid;
+    }
+
+    document.getElementById('editForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const name     = document.getElementById('name').value;
+        const price    = parseFloat(document.getElementById('price').value);
+        const category = document.getElementById('category').value;
+
+        if (!validate(name, price, category)) return;
+
+        const res = await fetch(`/api/products/${id}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: parseInt(id), name, price, category })
+        });
+
+        if (res.ok) {
+            window.location.href = '/index.html?msg=' + encodeURIComponent('Product updated successfully!');
+        } else {
+            document.getElementById('alert').innerHTML =
+                `<div class="alert alert-danger">Failed to update product.</div>`;
+        }
+    });
+
+    loadProduct();
+    </script>
+</body>
+</html>

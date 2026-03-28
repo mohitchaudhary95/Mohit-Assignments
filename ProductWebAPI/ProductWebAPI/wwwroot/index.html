@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Products</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div class="navbar">🛒 Product Manager</div>
+    <div class="container">
+        <div class="top-bar">
+            <h2>All Products</h2>
+            <a href="/create.html" class="btn btn-success">+ Add Product</a>
+        </div>
+        <div id="alert"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price (₹)</th>
+                    <th>Category</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="productTable"></tbody>
+        </table>
+    </div>
+
+    <script>
+    const API = '/api/products';
+
+    async function loadProducts() {
+        const res  = await fetch(API);
+        const data = await res.json();
+        const tbody = document.getElementById('productTable');
+        tbody.innerHTML = '';
+
+        if (data.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:#888;">No products found.</td></tr>';
+            return;
+        }
+
+        data.forEach(p => {
+            tbody.innerHTML += `
+                <tr>
+                    <td>${p.id}</td>
+                    <td>${p.name}</td>
+                    <td>₹${parseFloat(p.price).toFixed(2)}</td>
+                    <td>${p.category}</td>
+                    <td class="actions">
+                        <a href="/details.html?id=${p.id}" class="btn btn-primary">Details</a>
+                        <a href="/edit.html?id=${p.id}"    class="btn btn-warning">Edit</a>
+                        <a href="/delete.html?id=${p.id}"  class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>`;
+        });
+    }
+
+    // Show success message if redirected after create/edit/delete
+    const msg = new URLSearchParams(window.location.search).get('msg');
+    if (msg) {
+        document.getElementById('alert').innerHTML =
+            `<div class="alert alert-success">${decodeURIComponent(msg)}</div>`;
+    }
+
+    loadProducts();
+    </script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\wwwroot\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\wwwroot\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\wwwroot\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\wwwroot\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\wwwroot\\details.html||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\wwwroot\\details.html||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\wwwroot\\delete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\wwwroot\\delete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\migrations\\20260328050909_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\migrations\\20260328050909_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|c:\\users\\mohit\\source\\repos\\28march\\productwebapi\\productwebapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{874C5648-039D-4566-B8F7-39099FC6EF1D}|ProductWebAPI\\ProductWebAPI.csproj|solutionrelative:productwebapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "ProductWebAPI\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "ProductWebAPI\\wwwroot\\js\\app.js",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAmwPcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-28T05:29:02.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProductWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Program.cs",
+              "RelativeToolTip": "ProductWebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:00:47.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "edit.html",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\edit.html",
+              "RelativeDocumentMoniker": "ProductWebAPI\\wwwroot\\edit.html",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\edit.html",
+              "RelativeToolTip": "ProductWebAPI\\wwwroot\\edit.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-28T04:48:08.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ProductWebAPI\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\index.html",
+              "RelativeToolTip": "ProductWebAPI\\wwwroot\\index.html",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-28T04:47:44.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductWebAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Models\\Product.cs",
+              "RelativeToolTip": "ProductWebAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:44:25.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductWebAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductWebAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:45:44.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "create.html",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\create.html",
+              "RelativeDocumentMoniker": "ProductWebAPI\\wwwroot\\create.html",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\create.html",
+              "RelativeToolTip": "ProductWebAPI\\wwwroot\\create.html",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwE4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-28T04:48:35.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "delete.html",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\delete.html",
+              "RelativeDocumentMoniker": "ProductWebAPI\\wwwroot\\delete.html",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\delete.html",
+              "RelativeToolTip": "ProductWebAPI\\wwwroot\\delete.html",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-28T04:49:12.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "details.html",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\details.html",
+              "RelativeDocumentMoniker": "ProductWebAPI\\wwwroot\\details.html",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\details.html",
+              "RelativeToolTip": "ProductWebAPI\\wwwroot\\details.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-28T04:48:55.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\appsettings.json",
+              "RelativeToolTip": "ProductWebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T04:46:51.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260328050909_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Migrations\\20260328050909_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ProductWebAPI\\Migrations\\20260328050909_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Migrations\\20260328050909_InitialCreate.cs",
+              "RelativeToolTip": "ProductWebAPI\\Migrations\\20260328050909_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T05:09:10.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProductWebAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ProductWebAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T04:45:07.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "ProductWebAPI\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\28March\\ProductWebAPI\\ProductWebAPI\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "ProductWebAPI\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAgwJkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-28T04:50:08.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
