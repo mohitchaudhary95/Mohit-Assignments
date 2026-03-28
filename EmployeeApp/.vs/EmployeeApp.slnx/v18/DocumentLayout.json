@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|c:\\users\\mohit\\source\\repos\\employee\\employeeapp\\employeeapp\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|solutionrelative:employeeapp\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|c:\\users\\mohit\\source\\repos\\employee\\employeeapp\\employeeapp\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|solutionrelative:employeeapp\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|c:\\users\\mohit\\source\\repos\\employee\\employeeapp\\employeeapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|solutionrelative:employeeapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|c:\\users\\mohit\\source\\repos\\employee\\employeeapp\\employeeapp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|solutionrelative:employeeapp\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|c:\\users\\mohit\\source\\repos\\employee\\employeeapp\\employeeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|solutionrelative:employeeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|c:\\users\\mohit\\source\\repos\\employee\\employeeapp\\employeeapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C42B68-BE5A-E278-9310-241D43A55093}|EmployeeApp\\EmployeeApp.csproj|solutionrelative:employeeapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\wwwroot\\app.js",
+              "RelativeDocumentMoniker": "EmployeeApp\\wwwroot\\app.js",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\wwwroot\\app.js",
+              "RelativeToolTip": "EmployeeApp\\wwwroot\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-25T05:02:05.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "EmployeeApp\\wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\wwwroot\\style.css",
+              "RelativeToolTip": "EmployeeApp\\wwwroot\\style.css",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAAAGoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-25T05:01:50.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "EmployeeApp\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\wwwroot\\index.html",
+              "RelativeToolTip": "EmployeeApp\\wwwroot\\index.html",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-25T05:01:26.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EmployeeApp\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeeApp\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T04:45:53.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeApp\\Program.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\Program.cs",
+              "RelativeToolTip": "EmployeeApp\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T04:39:19.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeApp\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Employee\\EmployeeApp\\EmployeeApp\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T04:33:20.731Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
