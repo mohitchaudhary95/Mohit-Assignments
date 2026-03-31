@@ -59,10 +59,13 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\login.html
 wwwroot\app.js
-wwwroot\index.html
 wwwroot\style.css
+wwwroot\index.html
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\login.html
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\favicon.ico
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\app.js
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -122,6 +125,5 @@ C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\lib\jquery\
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\app.js
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\index.html
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\style.css

@@ -2,7 +2,32 @@
 let currentPage = 1;
 const pageSize = 5;
 
-// ── NAVIGATION ──────────────────────────────────────────────────────────────
+// ── AUTH HELPERS ──────────────────────────────────────────────────────────────
+function getToken() {
+    return localStorage.getItem('emp_token');
+}
+
+function authHeaders() {
+    return {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${getToken()}`
+    };
+}
+
+function checkAuth() {
+    if (!getToken()) {
+        window.location.href = '/login.html';
+    }
+}
+
+function logout() {
+    localStorage.removeItem('emp_token');
+    localStorage.removeItem('emp_username');
+    localStorage.removeItem('emp_role');
+    window.location.href = '/login.html';
+}
+
+// ── NAVIGATION ────────────────────────────────────────────────────────────────
 function showSection(name, fromNav = false) {
     ['dashboard', 'employees', 'add'].forEach(s => {
         document.getElementById(`section-${s}`).style.display = 'none';
@@ -11,7 +36,6 @@ function showSection(name, fromNav = false) {
 
     document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
     const navIndex = { dashboard: 0, employees: 1, add: 2 };
-
     const navLinks = document.querySelectorAll('.nav-link');
     if (navLinks[navIndex[name]]) {
         navLinks[navIndex[name]].classList.add('active');
@@ -22,9 +46,14 @@ function showSection(name, fromNav = false) {
     if (name === 'add' && fromNav) resetForm();
 }
 
-// ── LOAD STATS ───────────────────────────────────────────────────────────────
+// ── LOAD STATS ────────────────────────────────────────────────────────────────
 async function loadStats() {
-    const res = await fetch(`${API}/stats`);
+    const res = await fetch(`${API}/stats`, {
+        headers: authHeaders()
+    });
+
+    if (res.status === 401) { logout(); return; }
+
     const data = await res.json();
 
     document.getElementById('stat-total').textContent = data.total;
@@ -37,7 +66,7 @@ async function loadStats() {
         .join('');
 }
 
-// ── LOAD EMPLOYEES ───────────────────────────────────────────────────────────
+// ── LOAD EMPLOYEES ────────────────────────────────────────────────────────────
 async function loadEmployees() {
     const search = document.getElementById('search-input').value;
     const dept = document.getElementById('filter-dept').value;
@@ -48,14 +77,16 @@ async function loadEmployees() {
     if (dept) url += `&department=${encodeURIComponent(dept)}`;
     if (status !== '') url += `&isActive=${status}`;
 
-    const res = await fetch(url);
-    const data = await res.json();
+    const res = await fetch(url, { headers: authHeaders() });
 
+    if (res.status === 401) { logout(); return; }
+
+    const data = await res.json();
     renderTable(data.data);
     renderPagination(data.totalPages);
 }
 
-// ── RENDER TABLE ─────────────────────────────────────────────────────────────
+// ── RENDER TABLE ──────────────────────────────────────────────────────────────
 function renderTable(employees) {
     const tbody = document.getElementById('emp-table-body');
 
@@ -65,22 +96,22 @@ function renderTable(employees) {
     }
 
     tbody.innerHTML = employees.map(e => `
-    <tr>
-      <td><strong>${e.firstName} ${e.lastName}</strong></td>
-      <td>${e.email}</td>
-      <td>${e.department}</td>
-      <td>${e.designation}</td>
-      <td>₹${Number(e.salary).toLocaleString()}</td>
-      <td>${new Date(e.dateOfJoining).toLocaleDateString()}</td>
-      <td><span class="badge ${e.isActive ? 'active' : 'inactive'}">${e.isActive ? 'Active' : 'Inactive'}</span></td>
-      <td style="display:flex;gap:6px;flex-wrap:wrap">
-        <button class="btn btn-view btn-sm"   onclick="viewEmployee(${e.employeeId})">👁 View</button>
-        <button class="btn btn-edit btn-sm"   onclick="editEmployee(${e.employeeId})">✏️ Edit</button>
-        <button class="btn btn-toggle btn-sm" onclick="toggleStatus(${e.employeeId})">🔄 Toggle</button>
-        <button class="btn btn-delete btn-sm" onclick="deleteEmployee(${e.employeeId})">🗑 Delete</button>
-      </td>
-    </tr>
-  `).join('');
+        <tr>
+            <td><strong>${e.firstName} ${e.lastName}</strong></td>
+            <td>${e.email}</td>
+            <td>${e.department}</td>
+            <td>${e.designation}</td>
+            <td>₹${Number(e.salary).toLocaleString()}</td>
+            <td>${new Date(e.dateOfJoining).toLocaleDateString()}</td>
+            <td><span class="badge ${e.isActive ? 'active' : 'inactive'}">${e.isActive ? 'Active' : 'Inactive'}</span></td>
+            <td style="display:flex;gap:6px;flex-wrap:wrap">
+                <button class="btn btn-view btn-sm"   onclick="viewEmployee(${e.employeeId})">👁 View</button>
+                <button class="btn btn-edit btn-sm"   onclick="editEmployee(${e.employeeId})">✏️ Edit</button>
+                <button class="btn btn-toggle btn-sm" onclick="toggleStatus(${e.employeeId})">🔄 Toggle</button>
+                <button class="btn btn-delete btn-sm" onclick="deleteEmployee(${e.employeeId})">🗑 Delete</button>
+            </td>
+        </tr>
+    `).join('');
 }
 
 // ── PAGINATION ────────────────────────────────────────────────────────────────
@@ -99,19 +130,19 @@ function renderPagination(totalPages) {
 
 // ── VIEW EMPLOYEE (MODAL) ─────────────────────────────────────────────────────
 async function viewEmployee(id) {
-    const res = await fetch(`${API}/${id}`);
+    const res = await fetch(`${API}/${id}`, { headers: authHeaders() });
     const e = await res.json();
 
     document.getElementById('modal-name').textContent = `${e.firstName} ${e.lastName}`;
     document.getElementById('modal-body').innerHTML = `
-    <div class="modal-row"><span>Email</span>       <span>${e.email}</span></div>
-    <div class="modal-row"><span>Phone</span>       <span>${e.phone}</span></div>
-    <div class="modal-row"><span>Department</span>  <span>${e.department}</span></div>
-    <div class="modal-row"><span>Designation</span> <span>${e.designation}</span></div>
-    <div class="modal-row"><span>Salary</span>      <span>₹${Number(e.salary).toLocaleString()}</span></div>
-    <div class="modal-row"><span>Joined</span>      <span>${new Date(e.dateOfJoining).toLocaleDateString()}</span></div>
-    <div class="modal-row"><span>Status</span>      <span class="badge ${e.isActive ? 'active' : 'inactive'}">${e.isActive ? 'Active' : 'Inactive'}</span></div>
-  `;
+        <div class="modal-row"><span>Email</span>       <span>${e.email}</span></div>
+        <div class="modal-row"><span>Phone</span>       <span>${e.phone}</span></div>
+        <div class="modal-row"><span>Department</span>  <span>${e.department}</span></div>
+        <div class="modal-row"><span>Designation</span> <span>${e.designation}</span></div>
+        <div class="modal-row"><span>Salary</span>      <span>₹${Number(e.salary).toLocaleString()}</span></div>
+        <div class="modal-row"><span>Joined</span>      <span>${new Date(e.dateOfJoining).toLocaleDateString()}</span></div>
+        <div class="modal-row"><span>Status</span>      <span class="badge ${e.isActive ? 'active' : 'inactive'}">${e.isActive ? 'Active' : 'Inactive'}</span></div>
+    `;
     document.getElementById('modal-overlay').style.display = 'flex';
 }
 
@@ -130,18 +161,15 @@ function resetForm() {
 
 // ── EDIT EMPLOYEE ─────────────────────────────────────────────────────────────
 async function editEmployee(id) {
-    const res = await fetch(`${API}/${id}`);
+    const res = await fetch(`${API}/${id}`, { headers: authHeaders() });
     const e = await res.json();
 
-    // Switch to form section without resetting
-    showSection('add',false);
+    showSection('add', false);
 
-    // Set Edit mode labels
     document.getElementById('form-title').textContent = 'Edit Employee';
     document.getElementById('submit-btn').textContent = '💾 Save Changes';
     document.getElementById('form-error').textContent = '';
 
-    // Pre-fill all fields
     document.getElementById('emp-id').value = e.employeeId;
     document.getElementById('firstName').value = e.firstName;
     document.getElementById('lastName').value = e.lastName;
@@ -174,13 +202,15 @@ async function submitForm(event) {
 
     const res = await fetch(url, {
         method,
-        headers: { 'Content-Type': 'application/json' },
+        headers: authHeaders(),
         body: JSON.stringify(payload)
     });
 
+    if (res.status === 401) { logout(); return; }
+
     if (res.ok) {
         resetForm();
-        showSection('employees',false);
+        showSection('employees', false);
     } else {
         const err = await res.json();
         document.getElementById('form-error').textContent =
@@ -190,14 +220,20 @@ async function submitForm(event) {
 
 // ── TOGGLE STATUS ─────────────────────────────────────────────────────────────
 async function toggleStatus(id) {
-    await fetch(`${API}/${id}/toggle-status`, { method: 'PATCH' });
+    await fetch(`${API}/${id}/toggle-status`, {
+        method: 'PATCH',
+        headers: authHeaders()
+    });
     loadEmployees();
 }
 
 // ── DELETE ────────────────────────────────────────────────────────────────────
 async function deleteEmployee(id) {
     if (!confirm('Are you sure you want to delete this employee?')) return;
-    await fetch(`${API}/${id}`, { method: 'DELETE' });
+    await fetch(`${API}/${id}`, {
+        method: 'DELETE',
+        headers: authHeaders()
+    });
     loadEmployees();
 }
 
@@ -207,13 +243,12 @@ async function fetchAllEmployees() {
     const dept = document.getElementById('filter-dept').value;
     const status = document.getElementById('filter-status').value;
 
-    // Fetch all employees with current filters but no pagination
     let url = `${API}?page=1&pageSize=10000`;
     if (search) url += `&search=${encodeURIComponent(search)}`;
     if (dept) url += `&department=${encodeURIComponent(dept)}`;
     if (status !== '') url += `&isActive=${status}`;
 
-    const res = await fetch(url);
+    const res = await fetch(url, { headers: authHeaders() });
     const data = await res.json();
     return data.data;
 }
@@ -232,59 +267,38 @@ function formatEmployeesForExport(employees) {
     }));
 }
 
-// ── EXPORT TO EXCEL ───────────────────────────────────────────────────────────
 async function exportToExcel() {
     const employees = await fetchAllEmployees();
-
-    if (employees.length === 0) {
-        alert('No employees to export!');
-        return;
-    }
+    if (employees.length === 0) { alert('No employees to export!'); return; }
 
     const formatted = formatEmployeesForExport(employees);
-
     const wb = XLSX.utils.book_new();
     const ws = XLSX.utils.json_to_sheet(formatted);
 
-    // Set column widths
     ws['!cols'] = [
-        { wch: 15 }, // First Name
-        { wch: 15 }, // Last Name
-        { wch: 28 }, // Email
-        { wch: 15 }, // Phone
-        { wch: 15 }, // Department
-        { wch: 20 }, // Designation
-        { wch: 15 }, // Salary
-        { wch: 18 }, // Date of Joining
-        { wch: 10 }, // Status
+        { wch: 15 }, { wch: 15 }, { wch: 28 }, { wch: 15 },
+        { wch: 15 }, { wch: 20 }, { wch: 15 }, { wch: 18 }, { wch: 10 }
     ];
 
     XLSX.utils.book_append_sheet(wb, ws, 'Employees');
-
-    const fileName = `Employees_${new Date().toISOString().split('T')[0]}.xlsx`;
-    XLSX.writeFile(wb, fileName);
+    XLSX.writeFile(wb, `Employees_${new Date().toISOString().split('T')[0]}.xlsx`);
 }
 
-// ── EXPORT TO CSV ─────────────────────────────────────────────────────────────
 async function exportToCSV() {
     const employees = await fetchAllEmployees();
-
-    if (employees.length === 0) {
-        alert('No employees to export!');
-        return;
-    }
+    if (employees.length === 0) { alert('No employees to export!'); return; }
 
     const formatted = formatEmployeesForExport(employees);
-
     const wb = XLSX.utils.book_new();
     const ws = XLSX.utils.json_to_sheet(formatted);
     XLSX.utils.book_append_sheet(wb, ws, 'Employees');
-
-    const fileName = `Employees_${new Date().toISOString().split('T')[0]}.csv`;
-    XLSX.writeFile(wb, fileName);
+    XLSX.writeFile(wb, `Employees_${new Date().toISOString().split('T')[0]}.csv`);
 }
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+    checkAuth();
+    document.getElementById('sidebar-username').textContent =
+        localStorage.getItem('emp_username') || 'Admin';
     loadStats();
 });

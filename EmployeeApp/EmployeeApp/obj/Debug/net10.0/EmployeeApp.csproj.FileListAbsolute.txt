@@ -226,6 +226,9 @@ C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\r
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\EmployeeApp.pdb
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\EmployeeApp.genruntimeconfig.cache
 C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\ref\EmployeeApp.dll
-C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\compressed\sf13e6g2ua-{0}-dqid6770dq-dqid6770dq.gz
-C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\compressed\sb53119vtm-{0}-wq7pvotwqy-wq7pvotwqy.gz
-C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\compressed\grtievbs5q-{0}-miejg182ug-miejg182ug.gz
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\compressed\sf13e6g2ua-{0}-ltccmgqc79-ltccmgqc79.gz
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\compressed\sb53119vtm-{0}-i83tkpb4uj-i83tkpb4uj.gz
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\compressed\tudj038csb-{0}-1pawoxbrv0-1pawoxbrv0.gz
+C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\obj\Debug\net10.0\compressed\grtievbs5q-{0}-6ab14ru7cx-6ab14ru7cx.gz

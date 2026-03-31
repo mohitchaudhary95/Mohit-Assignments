@@ -1,2 +1,0 @@
-C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\css\site.css
-C:\Users\mohit\source\repos\Employee\EmployeeApp\EmployeeApp\wwwroot\js\site.js

@@ -1,5 +1,6 @@
 ﻿using EmployeeApp.Data;
 using EmployeeApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net.NetworkInformation;
@@ -10,6 +11,7 @@ using static System.Net.WebRequestMethods;
 
 namespace EmployeeApp.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class EmployeesController : ControllerBase
