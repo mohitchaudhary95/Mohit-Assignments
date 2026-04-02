@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|c:\\users\\mohit\\source\\repos\\azure\\blobapp\\blobapp\\views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|solutionrelative:blobapp\\views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|c:\\users\\mohit\\source\\repos\\azure\\blobapp\\blobapp\\controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|solutionrelative:blobapp\\controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|c:\\users\\mohit\\source\\repos\\azure\\blobapp\\blobapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|solutionrelative:blobapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|c:\\users\\mohit\\source\\repos\\azure\\blobapp\\blobapp\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|solutionrelative:blobapp\\services\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|c:\\users\\mohit\\source\\repos\\azure\\blobapp\\blobapp\\models\\blobfilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|solutionrelative:blobapp\\models\\blobfilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|c:\\users\\mohit\\source\\repos\\azure\\blobapp\\blobapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A073C988-6DBD-4E25-99D5-D11CA308BBAA}|BlobApp\\BlobApp.csproj|solutionrelative:blobapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Views\\Blob\\Index.cshtml",
+              "RelativeDocumentMoniker": "BlobApp\\Views\\Blob\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Views\\Blob\\Index.cshtml",
+              "RelativeToolTip": "BlobApp\\Views\\Blob\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-01T09:49:23.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlobController.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Controllers\\BlobController.cs",
+              "RelativeDocumentMoniker": "BlobApp\\Controllers\\BlobController.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Controllers\\BlobController.cs",
+              "RelativeToolTip": "BlobApp\\Controllers\\BlobController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T09:47:36.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlobApp\\Program.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Program.cs",
+              "RelativeToolTip": "BlobApp\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T09:45:56.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Services\\BlobService.cs",
+              "RelativeDocumentMoniker": "BlobApp\\Services\\BlobService.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Services\\BlobService.cs",
+              "RelativeToolTip": "BlobApp\\Services\\BlobService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T09:45:10.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlobFileModel.cs",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Models\\BlobFileModel.cs",
+              "RelativeDocumentMoniker": "BlobApp\\Models\\BlobFileModel.cs",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\Models\\BlobFileModel.cs",
+              "RelativeToolTip": "BlobApp\\Models\\BlobFileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T09:43:42.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BlobApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\mohit\\source\\repos\\Azure\\BlobApp\\BlobApp\\appsettings.json",
+              "RelativeToolTip": "BlobApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-01T09:42:38.748Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
