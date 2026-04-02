@@ -4,7 +4,7 @@ namespace Azure_Assessment
 {
     internal class Program
     {
-        static string str_connection = "DefaultEndpointsProtocol=https;AccountName=mohitstoragecg;AccountKey=r8OAv9j/vykz+2dNHQsH+iylwbAsJbKQNI6WGSrGqwsFA2EXUuWIAIaTWe9wZW0oxhPZj74xs42T+AStJbGKjQ==;EndpointSuffix=core.windows.net";// this value i had kept empty u have to take it from azure access keys and add it and in github u cant put sececet 
+        static string str_connection = "";// this value i had kept empty u have to take it from azure access keys and add it and in github u cant put sececet 
         // connection like this becasue when u try to commit it tells secret information is there so for security reasong i cannot do commit so removed
 
         static async Task Main()
