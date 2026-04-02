@@ -1,0 +1,25 @@
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure Assessment.exe
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure Assessment.deps.json
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure Assessment.runtimeconfig.json
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure Assessment.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure Assessment.pdb
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure.Storage.Blobs.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Azure.Storage.Common.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\System.IO.Hashing.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.csproj.AssemblyReference.cache
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.AssemblyInfoInputs.cache
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.AssemblyInfo.cs
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.csproj.CoreCompileInputs.cache
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure As.A633BAE0.Up2Date
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\refint\Azure Assessment.dll
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.pdb
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\Azure Assessment.genruntimeconfig.cache
+C:\Users\mohit\source\repos\Azure\Azure Assessment\Azure Assessment\obj\Debug\net10.0\ref\Azure Assessment.dll
