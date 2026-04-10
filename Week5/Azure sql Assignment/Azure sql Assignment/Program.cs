@@ -22,7 +22,7 @@ namespace Azure_sql_Assignment
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
-            // Add services to the container.
+            // ✅ Add MVC services
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
@@ -35,6 +35,8 @@ namespace Azure_sql_Assignment
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles(); // ❗ REQUIRED (instead of MapStaticAssets if causing error)
+
             app.UseRouting();
 
             app.UseAuthorization();

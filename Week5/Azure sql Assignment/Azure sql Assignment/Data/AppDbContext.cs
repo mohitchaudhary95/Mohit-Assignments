@@ -9,6 +9,6 @@ namespace Azure_sql_Assignment.Data
         {
         }
 
-        public DbSet<Person> Person { get; set; } = null!;
+        public DbSet<Person> Persons { get; set; } = null!;
     }
 }

@@ -22,7 +22,7 @@ namespace Azure_sql_Assignment.Controllers
         // GET: People
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Person.ToListAsync());
+            return View(await _context.Persons.ToListAsync());
         }
 
         // GET: People/Details/5
@@ -33,7 +33,7 @@ namespace Azure_sql_Assignment.Controllers
                 return NotFound();
             }
 
-            var person = await _context.Person
+            var person = await _context.Persons
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (person == null)
             {
@@ -73,7 +73,7 @@ namespace Azure_sql_Assignment.Controllers
                 return NotFound();
             }
 
-            var person = await _context.Person.FindAsync(id);
+            var person = await _context.Persons.FindAsync(id);
             if (person == null)
             {
                 return NotFound();
@@ -124,7 +124,7 @@ namespace Azure_sql_Assignment.Controllers
                 return NotFound();
             }
 
-            var person = await _context.Person
+            var person = await _context.Persons
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (person == null)
             {
@@ -139,10 +139,10 @@ namespace Azure_sql_Assignment.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var person = await _context.Person.FindAsync(id);
+            var person = await _context.Persons.FindAsync(id);
             if (person != null)
             {
-                _context.Person.Remove(person);
+                _context.Persons.Remove(person);
             }
 
             await _context.SaveChangesAsync();
@@ -151,7 +151,7 @@ namespace Azure_sql_Assignment.Controllers
 
         private bool PersonExists(int id)
         {
-            return _context.Person.Any(e => e.Id == id);
+            return _context.Persons.Any(e => e.Id == id);
         }
     }
 }
